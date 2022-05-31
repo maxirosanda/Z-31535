@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: blue;
+}
+.contenedor{
+    background-color: aqua;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items:end;
+    align-content: center;
+}
+
+.caja{
+    background-color: brown;
+    margin: 10px;
+    width: 100px;
+}
+
+.caja1{
+    order:5 ;
+}
+.caja2{
+ order: 3;
+}
+.caja3{
+ order: 2;
+}
+.caja4{
+ order: 4;
+    }
+.caja5{
+    order: 1;
+}
