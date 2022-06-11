@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caja{
+    width: 200px;
+    margin: 10px;
+    background-image: linear-gradient(to bottom , rgb(255, 0, 0),rgb(0, 218, 18));
+}
+
+.caja2{
+    width: 200px;
+    margin: 10px;
+    background-image: radial-gradient(ellipse at center , rgb(255, 0, 0),rgb(0, 218, 18));
+}
+
+.img{
+    margin:10px;
+    width: 150px;
+    transition: all 1s;
+}
+.img1:hover{
+    transform: translate(10px,8px);
+}
+
+.img2:hover{
+    transform: rotateX(360deg);
+}
+.img3:hover{
+    transform: rotatey(360deg);
+}
+.img4:hover{
+    transform: rotatez(360deg);
+}
+.img5:hover{
+    transform: scale(1.2)
+}
+.img6:hover{
+    transform: skewy(10deg)
+}
+
+.img7:hover{
+    transform: translate(50px,5px) rotate(360deg) scale(1.5);
+}
+
+.form{
+    padding: 30px;
+}
+.form input{
+    width: 100px;
+    transition: all 1s;
+    padding: 8px;
+}
+.form input:focus {
+    width: 200px;
+}
