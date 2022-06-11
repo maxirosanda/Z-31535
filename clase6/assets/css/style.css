@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.padre{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 200px;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-items: center;
+    align-items: center ;
+    
+    background-color: blueviolet;
+}
+.hijo{
+    background-color: aqua;
+    text-align: center;
+    border:1px solid #000
+}
+.hijo1{
+    justify-self: start;
+    align-self: start;
+}

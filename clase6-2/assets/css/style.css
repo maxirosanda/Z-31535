@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    display: grid;
+    column-gap: 10px;
+    row-gap: 15px;
+    grid-template-columns: 100px auto 100px ;
+    grid-template-rows: 150px 1fr 1fr 100px;
+    grid-template-areas: "navegador  encabezado   encabezado"
+                         "navegador  principal    publicidad"
+                         "navegador  noticias     publicidad"
+                         "navegador  pie          pie";
+}
+
+.navegador{
+    grid-area:navegador;
+    background-color: aqua;
+}
+
+.encabezado{
+    grid-area: encabezado;
+    background-color: blue;
+}
+.principal{
+    grid-area: principal;
+    background-color:brown ;
+}
+.publicidad{
+    grid-area: publicidad;
+    background-color: coral;
+}
+.noticias{
+    grid-area: noticias;
+    background-color: crimson;
+}
+
+.pie{
+    grid-area: pie;
+    background-color:darkmagenta;
+}

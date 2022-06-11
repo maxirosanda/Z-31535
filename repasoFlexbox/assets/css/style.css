@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: #001850 ;
+    display: flex;
+    padding: 4px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+
+}
+.navbar ul li{
+    padding: 10px;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.redes img{
+   width: 28px;
+}
+
+.fondoHeader{
+    background-image: url(../img/paisaje2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondoHeader h1 {
+    color: white;
+    text-align: center;
+
+}
+.tarjeta{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.btn{
+    background-color:#001850 ;
+    color: white;
+    padding: 8px 15px;
+    border: 0;
+    border-radius: 5px;
+}
+
